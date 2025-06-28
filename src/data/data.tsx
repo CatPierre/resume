@@ -12,7 +12,6 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/background.jpg';
 import profilepic from '../images/profilepic.jpg';
-import resumeImage from '../images/resume.jpg'; 
 
 import {
   About,
@@ -65,7 +64,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: resumeImage,
+      href: '../assets/resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
