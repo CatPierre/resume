@@ -25,8 +25,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Cathrine Nayrouz Resume',
+  description: "resume site",
 };
 
 /**
@@ -63,7 +63,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '../assets/resume.pdf',
+      href: '../images/resume.jpg',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
