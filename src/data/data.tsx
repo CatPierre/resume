@@ -63,7 +63,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '../assets/cnayrouzResume.pdf',
+      href: '/assets/cnayrouzResume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
