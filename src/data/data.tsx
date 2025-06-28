@@ -12,6 +12,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/background.jpg';
 import profilepic from '../images/profilepic.jpg';
+
 import {
   About,
   Hero,
@@ -25,8 +26,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Cathrine Nayrouz Resume',
+  description: "resume site",
 };
 
 /**
@@ -63,7 +64,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/cnayrouzResume.pdf',
+      href: '../assets/resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
