@@ -60,14 +60,8 @@ export const heroData: Hero = {
         <strong className="text-stone-100">trails of Ontario</strong>.
       </p>
     </>
-  ),
-  actions: [
-    {
-      href: "../images/resume.jpg",
-      text: 'Resume',
-      primary: true,
-      Icon: ArrowDownTrayIcon,
-    },
+  )
+ 
     
   ],
 };
