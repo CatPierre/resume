@@ -74,7 +74,7 @@ export const heroData: Hero = {
         at <strong className="text-stone-100">WDG Public Health</strong> helping automate and modernize various projects, namely the well water pipeline.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me in <strong className="text-stone-100">reading, crocheting, cooking</strong>,
+        In my free time time, you can catch me <strong className="text-stone-100">reading, crocheting, cooking</strong>,
         plucking my <strong className="text-stone-100">Oud</strong>, or exploring the beautiful{' '}
         <strong className="text-stone-100">trails of Ontario</strong>.
       </p>
