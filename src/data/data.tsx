@@ -63,7 +63,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '../images/resume.jpg',
+      href: "../images/resume.jpg",
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
