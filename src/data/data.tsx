@@ -9,10 +9,7 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/background.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -69,18 +66,17 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Cathrine Nayrouz.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm an Ontario based <strong className="text-stone-100">Computer Science MSc Graduate</strong>, currently working
+        at <strong className="text-stone-100">WDG Public Health</strong> helping automate and modernize various projects, namely the well water pipeline.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me <strong className="text-stone-100">reading, crocheting, cooking</strong>,
+        plucking my <strong className="text-stone-100">Oud</strong>, or exploring the beautiful{' '}
+        <strong className="text-stone-100">trails of Ontario</strong>.
       </p>
     </>
   ),
@@ -104,16 +100,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I am a person who seeks value and meaning in their work, which is why I gravitate towards working in the public sector. Every day working at WDGPH has been fulfilling and meaningful. Feeling the work being done matters and contributes to a greater puzzle that benefits the community is a key part of why I enjoy working at WDGPH.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Guelph, ON', Icon: MapIcon},
+    {label: 'Age', text: '28', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Canadian / Egyptian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Reading, Music, Crocheting', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Guelph', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'WDGPH', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -129,67 +123,68 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
+        name: 'Arabic',
+        level: 10,
+      },
+      {
         name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
+        level: 2,
       },
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Languages',
     skills: [
       {
-        name: 'React',
-        level: 9,
+        name: 'Python',
+        level: 10,
       },
       {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
+        name: 'R',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
+        name: 'SQL',
+        level: 9,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Positon Relevant Skills',
     skills: [
       {
-        name: 'React Native',
+        name: 'Docker',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Kubernetes',
+        level: 6,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Pipelines',
+        level: 8,
+      },
+    ],
+  },
+  {
+    name: 'Position Relevant Experience',
+    skills: [
+      {
+        name: 'Data Governance',
+        level: 9,
+      },
+      {
+        name: 'Ethical/ AI',
+        level: 10,
+      },
+      {
+        name: 'Responsible AI',
+        level: 10,
       },
     ],
   },
 ];
+
 
 /**
  * Portfolio section
@@ -268,43 +263,64 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2025',
+    location: 'University of Guelph',
+    title: 'Masters of Science',
+    content: <p>Masters in Computer Science, for thesis on lower motor neuron disease modelling in simulated limb muscles</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2021',
+    location: 'Bachelors of Science',
+    title: 'BSc.in Computer Science',
+    content: <p>BSc.in Computer Science, with an area of application in Philosophy, and Psychology Brain and Cognition.</p>,
+  },
+];
+export const experience: TimelineItem[] = [
+  {
+    date: 'May 2025 - Present',
+    location: 'WDG Public Health',
+    title: 'Data Science Intern',
+    content: (
+      <p>
+        Using Python or R to design and implement solutions that integrate and strengthen public health information systems regarding well water in the community through 
+        well-governed data principles and rigorous quality practices
+      </p>
+    ),
+  },
+  {
+    date: 'July 2024 - Present',
+    location: 'CAN2oNET Collaboration Research Project with the ADC and Dr. Wagner-Riddle at University of Guelph',
+    title: 'Data Manager',
+    content: (
+      <p>
+       Design and implement a data pipeline, and data governance system for a Canada wide research group collecting big data for soil analysis and 
+       nitrogen dioxide emissions research.
+
+      </p>
+    ),
+  },
+  {
+    date: 'Sept 2024 - Dec 2024',
+    location: 'CARE-AI',
+    title: 'Curriculum Writing',
+    content: (
+      <p>
+        Helped write and design an AI curriculum to help inform industry professionals about AI topics, and responsible AI
+      </p>
+    ),
+  },
+  {
+    date: 'Sept 2019- Dec 2020',
+    location: 'Linamar',
+    title: 'Research Associate',
+    content: (
+      <p>
+        Data collection, analysis, and clean up. Using predictive modelling on high frequency data to predict tool life.
+      </p>
+    ),
   },
 ];
 
-export const experience: TimelineItem[] = [
-  {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
-  {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
-];
 
 /**
  * Testimonial section
@@ -361,13 +377,11 @@ export const contact: ContactSection = {
   ],
 };
 
+
 /**
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/CatPierre'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/cathrine-n-42409392/'},
 ];
