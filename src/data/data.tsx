@@ -60,7 +60,7 @@ export const heroData: Hero = {
         <strong className="text-stone-100">trails of Ontario</strong>.
       </p>
     </>
-  )
+  ),
  
     
   ],
