@@ -61,7 +61,12 @@ export const heroData: Hero = {
       </p>
     </>
   ),
- 
+  actions: [
+    {
+      text: 'Resume',
+      primary: true,
+      Icon: ArrowDownTrayIcon,
+    },
     
   ],
 };
