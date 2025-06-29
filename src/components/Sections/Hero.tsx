@@ -1,5 +1,4 @@
 import {ChevronDownIcon} from '@heroicons/react/24/outline';
-import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo} from 'react';
 
@@ -8,7 +7,7 @@ import Section from '../Layout/Section';
 import Socials from '../Socials';
 
 const Hero: FC = memo(() => {
-  const {imageSrc, name, description, actions} = heroData;
+  const {imageSrc, name, description} = heroData;
 
   return (
     <Section noPadding sectionId={SectionId.Hero}>
