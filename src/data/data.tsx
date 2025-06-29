@@ -1,6 +1,5 @@
 import {
   AcademicCapIcon,
-  ArrowDownTrayIcon,
   BuildingOffice2Icon,
   CalendarIcon,
   FlagIcon,
@@ -25,8 +24,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Cathrine Nayrouz Resume',
+  description: "resume site",
 };
 
 /**
@@ -61,15 +60,7 @@ export const heroData: Hero = {
       </p>
     </>
   ),
-  actions: [
-    {
-      href: '/assets/resume.pdf',
-      text: 'Resume',
-      primary: true,
-      Icon: ArrowDownTrayIcon,
-    },
     
-  ],
 };
 
 /**

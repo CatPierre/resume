@@ -1,5 +1,4 @@
 import {ChevronDownIcon} from '@heroicons/react/24/outline';
-import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo} from 'react';
 
@@ -8,7 +7,7 @@ import Section from '../Layout/Section';
 import Socials from '../Socials';
 
 const Hero: FC = memo(() => {
-  const {imageSrc, name, description, actions} = heroData;
+  const {imageSrc, name, description} = heroData;
 
   return (
     <Section noPadding sectionId={SectionId.Hero}>
@@ -27,20 +26,7 @@ const Hero: FC = memo(() => {
             <div className="flex gap-x-4 text-neutral-100">
               <Socials />
             </div>
-            <div className="flex w-full justify-center gap-x-4">
-              {actions.map(({href, text, primary, Icon}) => (
-                <a
-                  className={classNames(
-                    'flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 text-sm font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base',
-                    primary ? 'border-orange-500 ring-orange-500' : 'border-white ring-white',
-                  )}
-                  href={href}
-                  key={text}>
-                  {text}
-                  {Icon && <Icon className="h-5 w-5 text-white sm:h-6 sm:w-6" />}
-                </a>
-              ))}
-            </div>
+            
           </div>
         </div>
         <div className="absolute inset-x-0 bottom-6 flex justify-center">
