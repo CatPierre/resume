@@ -12,7 +12,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/background.jpg';
 import profilepic from '../images/profilepic.jpg';
-
+import resumepic from '../images/resume.jpg';
 import {
   About,
   Hero,
@@ -64,10 +64,11 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '../assets/resume.pdf',
+      href: '../images/resume.jpg',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
+      imgSrc: resumepic,
     },
     
   ],
