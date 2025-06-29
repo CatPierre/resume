@@ -24,16 +24,16 @@ export interface Hero {
   imageSrc: string;
   name: string;
   description: JSX.Element;
-  actions: HeroActionItem[];
+  //actions: HeroActionItem[];
 }
 
-interface HeroActionItem {
-  href: string;
-  text: string;
-  primary?: boolean;
-  Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
-  imgSrc?: string; // Optional image source for the action item
-}
+// interface HeroActionItem {
+//   href: string;
+//   text: string;
+//   primary?: boolean;
+//   Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
+//   imgSrc?: string; // Optional image source for the action item
+// }
 
 /**
  * About section
