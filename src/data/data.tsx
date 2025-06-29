@@ -60,7 +60,6 @@ export const heroData: Hero = {
     </>
   ),
     
-  ],
 };
 
 /**
